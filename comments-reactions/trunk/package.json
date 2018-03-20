@@ -1,0 +1,34 @@
+{
+  "name": "comments-reactions",
+  "version": "1.0.0",
+  "description": "Improve your comment system with funny emoji reactions.",
+  "main": "assets/src/scripts/reactions.js",
+  "scripts": {
+    "build-js": "uglifyjs assets/src/scripts/reactions.js -o assets/dist/scripts/reactions.min.js",
+    "build-img": "cp -R assets/src/images/ assets/dist/images/",
+    "build-css": "node-sass assets/src/styles -o assets/dist/styles --output-style=compressed --importer node_modules/node-sass-import && mv assets/dist/styles/reactions.css assets/dist/styles/reactions.min.css",
+    "build": "npm run build-img && npm run build-css && npm run build-js",
+    "start": "node-sass assets/src/styles -w -r -o assets/dist/styles --output-style=compressed"
+  },
+  "keywords": [
+    "reactions",
+    "emoji",
+    "comments"
+  ],
+  "author": "Henrique Silvério",
+  "license": "GPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueSilverio/comments-reactions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HenriqueSilverio/comments-reactions/issues"
+  },
+  "homepage": "https://wordpress.org/plugins/comments-reactions",
+  "devDependencies": {
+    "animate.css": "^3.6.1",
+    "node-sass": "^4.8.1",
+    "node-sass-import": "^1.1.1",
+    "uglify-es": "^3.3.9"
+  }
+}

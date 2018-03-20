@@ -1,0 +1,49 @@
+//
+// summary
+
+.hscr-comments-reactions__results {
+  display: flex;
+}
+
+.hscr-results-item {
+  width: 16px;
+  height: 16px;
+  color: #616770;
+  text-align: center;
+}
+
+.hscr-results-item + .hscr-results-item {
+  margin-left: 2px;
+}
+
+.hscr-results-item:not(.hscr-results-item--summary)::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+}
+
+.hscr-results-item--like:not(.hscr-results-item--summary)::before {
+  background-image: url("../images/like.svg");
+}
+
+.hscr-results-item--love:not(.hscr-results-item--summary)::before {
+  background-image: url("../images/love.svg");
+}
+
+.hscr-results-item--haha:not(.hscr-results-item--summary)::before {
+  background-image: url("../images/haha.svg");
+}
+
+.hscr-results-item--wow:not(.hscr-results-item--summary)::before {
+  background-image: url("../images/wow.svg");
+}
+
+.hscr-results-item--sad:not(.hscr-results-item--summary)::before {
+  background-image: url("../images/sad.svg");
+}
+
+.hscr-results-item--angry:not(.hscr-results-item--summary)::before {
+  background-image: url("../images/angry.svg");
+}

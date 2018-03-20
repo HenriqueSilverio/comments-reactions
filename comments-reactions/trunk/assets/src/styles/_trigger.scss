@@ -1,0 +1,165 @@
+//
+// trigger
+
+.hscr-btn-trigger {
+  position: relative;
+  padding: 4px 16px;
+  color: #616770;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  border-radius: 0;
+  background-color: transparent;
+
+  &:focus,
+  &:hover {
+    color: $primary;
+    background-color: transparent;
+  }
+}
+
+.hscr-trigger-label {
+}
+
+.hscr-btn-trigger--like {
+  padding-left: 20px;
+  color: $primary;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url("../images/like.svg");
+  }
+
+  &:focus,
+  &:hover {
+    color: $primary;
+  }
+}
+
+.hscr-btn-trigger--love {
+  padding-left: 20px;
+  color: $danger;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url("../images/love.svg");
+  }
+
+  &:focus,
+  &:hover {
+    color: $danger;
+  }
+}
+
+.hscr-btn-trigger--haha {
+  padding-left: 20px;
+  color: $warning;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url("../images/haha.svg");
+  }
+
+  &:focus,
+  &:hover {
+    color: $warning;
+  }
+}
+
+.hscr-btn-trigger--wow {
+  padding-left: 20px;
+  color: $warning;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url("../images/wow.svg");
+  }
+
+  &:focus,
+  &:hover {
+    color: $warning;
+  }
+}
+
+.hscr-btn-trigger--sad {
+  padding-left: 20px;
+  color: $warning;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url("../images/sad.svg");
+  }
+
+  &:focus,
+  &:hover {
+    color: $warning;
+  }
+}
+
+.hscr-btn-trigger--angry {
+  padding-left: 20px;
+  color: $danger;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url("../images/angry.svg");
+  }
+
+  &:focus,
+  &:hover {
+    color: $danger;
+  }
+}
+

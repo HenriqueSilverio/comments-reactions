@@ -1,0 +1,15 @@
+{
+  "name": "henriquesilverio/commentsreactions",
+  "description": "Improve your comment system with funny emoji reactions.",
+  "license": "GPL-3.0-or-later",
+  "type" : "wordpress-plugin",
+  "keywords": ["reactions", "emoji"],
+  "require": {
+    "php": "^7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HenriqueSilverio\\CommentsReactions\\": "src/"
+    }
+  }
+}
