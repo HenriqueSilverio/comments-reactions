@@ -60,17 +60,17 @@ If you get stuck, you can ask for help in our [support forum](https://wordpress.
 
 ## Screenshots
 
-### Comments Reactions: PDFs listing.
+### Comments Reactions: Reactions summary.
 
-![Comments Reactions: PDFs listing](comments-reactions/assets/screenshot-1.png)
+![Comments Reactions: Reactions summary](comments-reactions/assets/screenshot-1.png)
 
-### Comments Reactions: PDFs listing empty.
+### Comments Reactions: Add reactions.
 
-![Comments Reactions: PDFs listing empty](comments-reactions/assets/screenshot-2.png)
+![Comments Reactions: Add reactions](comments-reactions/assets/screenshot-2.png)
 
-### Comments Reactions: Settings page.
+### Comments Reactions: Reaction saved.
 
-![Comments Reactions: Settings page](comments-reactions/assets/screenshot-3.png)
+![Comments Reactions: Reaction saved](comments-reactions/assets/screenshot-3.png)
 
 ## Changelog
 
