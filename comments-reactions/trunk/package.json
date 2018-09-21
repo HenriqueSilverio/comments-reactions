@@ -26,9 +26,9 @@
   },
   "homepage": "https://wordpress.org/plugins/comments-reactions",
   "devDependencies": {
-    "animate.css": "^3.6.1",
-    "node-sass": "^4.8.1",
-    "node-sass-import": "^1.1.1",
+    "animate.css": "^3.7.0",
+    "node-sass": "^4.9.3",
+    "node-sass-import": "^2.0.1",
     "uglify-es": "^3.3.9"
   }
 }
